@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+body {
+    /*background-color: #ED213A;  /* fallback for old browsers */
+    /*background-color: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background-color: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../../images/background-body.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Rowdies', cursive;
+    
+    
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 50vh;
+    background-image: url('https://wallup.net/wp-content/uploads/2017/11/17/301412-Pokemon-748x421.jpg');
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 24;
+    display: border-box;
+    padding: 30px;
+}
+
+
+
+
+.teste {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header {
+    background-color: rgb(0, 0, 0,0.8);
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Wallpoet, sans-serif;
+    
+}
+
+.loader {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 30vh;
+    width: 50vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.photo {
+    height: 50vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.photo img {
+    height: 25vh;
+    width: 15vw;
+    background-color: rgba(128, 128, 128,0.2);
+    border-radius: 50%;
+    border: 2px dashed rgba(128, 128, 128,0.5);
+    
+}
+
+.stats {
+    height: 50vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.types {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.individual_stats {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    color: white;
+    padding-right: 20px;
+    border-radius: 20px;
+    border: groove 2px rgba(255, 255, 255,0.5);
+    text-shadow: 2px 2px black;
+    width: 13vw;
+    
+}
+
+.abilities {
+    color: white;
+    background-color: bisque;
+    border-radius: 20px;
+    padding-right: 20px;
+    border: groove 2px rgba(255, 255, 255,0.5);
+    text-shadow: 2px 2px black;
+}
+
+.font {
+    font-size: 1em;
+}
+
+@media (max-width : 1366px) {
+    .modal{
+        height: 51vh;
+    }
+    .font {
+        font-size: 0.9em;
+    }
+    
+}
+
+@media (max-height: 900px) {
+    .font {
+        font-size: 0.9em;
+    }
+}
+
